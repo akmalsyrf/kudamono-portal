@@ -1,6 +1,6 @@
 import React from 'react'
-import CardCarousel from './ui/CardCarousel'
-import data from '../data/data.json'
+import CardCarousel from '../ui/CardCarousel'
+import data from '../../data/data.json'
 
 export default function CardSection() {
   const { promo } = data

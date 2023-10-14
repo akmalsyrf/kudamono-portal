@@ -21,9 +21,14 @@ export default function Navbar() {
   }, [])
   return (
     <nav className="backdrop-filter backdrop-blur-lg">
+      <div className="bg-secondary flex justify-end py-2 px-12">
+        <div className="flex-end">
+          <span className="text-l text-accent-content">hot line +628984244913</span>
+        </div>
+      </div>
       <div className="navbar flex px-8">
         <div className="flex-1">
-          <a className="normal-case text-xl">KUDAMONO TRAVEL</a>
+          <h3 className="">KUDAMONO TRAVEL</h3>
         </div>
         <div className="flex-none">
           <h3 className="mr-5"><a href="">Home</a></h3>

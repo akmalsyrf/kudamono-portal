@@ -10,6 +10,14 @@ module.exports = {
   },
   plugins: [require('@tailwindcss/typography'), require('daisyui')],
   daisyui: {
-    themes: ['light', 'dark'],
+    themes: ['light', 'dark']
+    // themes: [
+    //   {'light': {
+    //     'secondary': '#FF8682'
+    //   }}
+    //   , {'dark': {
+    //     'secondary': '#FF8682'
+    //   }}
+    // ],
   },
 }

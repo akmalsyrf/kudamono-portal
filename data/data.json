@@ -1,38 +1,61 @@
 {
     "promo": [
-        "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
-        "https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg",
-        "https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg",
-        "https://daisyui.com/images/stock/photo-1559703248-dcaaec9fab78.jpg",
-        "https://daisyui.com/images/stock/photo-1565098772267-60af42b81ef2.jpg",
-        "https://daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.jpg"
+        "/images/promo-1.png",
+        "/images/promo-2.png",
+        "/images/promo-1.png",
+        "/images/promo-2.png"
     ],
     "popularDestination": [
         {
             "name": "tokyo sky tree",
-            "src": "/images/hoodies.avif"
+            "src": "/images/tokyo-sky-tree.png"
         },
         {
             "name": "shuri castle",
-            "src": "/images/perfume.avif"
+            "src": "/images/shuri-castel.png"
         },
         {
             "name": "sapporo fushimi inari shrine",
-            "src": "/images/shoes.avif"
+            "src": "/images/sapporo-fushimi.png"
         },
         {
             "name": "Oishi park",
-            "src": "/images/hoodies.avif"
+            "src": "/images/oishi-park.png"
         },
         {
             "name": "matsumoto caslte park",
-            "src": "/images/perfume.avif"
+            "src": "/images/matsumoto-castle.png"
         },
         {
             "name": "MT. fuji panoramic ropeway",
-            "src": "/images/shoes.avif"
+            "src": "/images/mt-fuji-panoramic.png"
         }
     ],
-    "resto": [],
-    "hotels": []
+    "feature": [
+        {
+            "name": "Resto",
+            "src": "/images/resto.png"
+        },
+        {
+            "name": "Hotel",
+            "src": "/images/hotel.png"
+        }
+    ],
+    "superiority": [
+        {
+            "name": "Custom Itinerary",
+            "desc": "Menawarkan rencana perjalanan khusus untuk perjalanan private tour ke jepang sesuai passion anda",
+            "src": "/images/custom-itinary.png"
+        },
+        {
+            "name": "Good Service",
+            "desc": "Support Service Drop out dan drop in di bandara Indonesia dan jepang",
+            "src": "/images/good-service.png"
+        },
+        {
+            "name": "Best Price",
+            "desc": "Berpergian dengan kualitas harga dan service terbaik",
+            "src": "/images/best-price.png"
+        }
+    ]
 }

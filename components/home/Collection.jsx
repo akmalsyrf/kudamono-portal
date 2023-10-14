@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
-import data from '../data/data.json'
+import data from '../../data/data.json'
 
 export default function Collection() {
   const { popularDestination } = data
@@ -9,7 +9,7 @@ export default function Collection() {
       <div className="flex">
         <div className="text-start flex-auto">
           <h1 className="text-2xl md:text-4xl font-medium">Popular Destination</h1>
-          <p className="text-sm mt-3">Search Flights & Places Hire to our most popular destinations</p>
+          <p className="text-xl mt-3">Search Flights & Places Hire to our most popular destinations</p>
         </div>
         <div className="text-end flex-auto">
           <button className="btn">See all places</button>
